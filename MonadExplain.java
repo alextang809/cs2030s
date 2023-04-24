@@ -12,7 +12,7 @@ Optional 是一个 Monad，它表示一个可能存在或不存在的值。
 
 System.out.println(concat.get()); 将输出 "AB"。
 */
-public class monadExplain {
+public class MonadExplain {
     public static void main(String[] args) {
         Optional<String> concat = Optional.of("A")
             .flatMap(a -> Optional.of("B")
